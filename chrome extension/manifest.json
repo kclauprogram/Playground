@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Extension: Azure DevOps Tools",
+  "version": "1.0.1",
+  "description": "where is my web element???",
+  "icons": {
+    "16": "image/sample.png",
+    "32": "image/sample.png",
+    "48": "image/artwork.png",
+    "128": "image/sample.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://dev.azure.com/*"
+  ],
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": [
+        "https://*.visualstudio.com/*",
+        "https://dev.azure.com/*"
+      ]      
+    }
+  ]
+}
