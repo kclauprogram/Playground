@@ -1,6 +1,6 @@
 const organization = 'CCeP-JM';
 const project = "CCeP JM - Agile";
-const personalAccessToken = "ctm3fqecwdbrxnak5a2pj5avyny6teyd7rtlrpdilyfnfcyfcytq";
+const personalAccessToken = "***";
 var team = "Development\\JM";
 
 let prefix = "https://dev.azure.com/" + organization + "/" + project + "/" + "_apis/";
